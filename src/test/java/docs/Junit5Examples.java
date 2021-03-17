@@ -1,5 +1,6 @@
 package docs;
 
+import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
 
 import java.sql.SQLOutput;
@@ -8,6 +9,7 @@ public class Junit5Examples {
     @BeforeAll
     static void setup() {
         System.out.println("setup");
+        Configuration.startMaximized = true;
     }
 
     @BeforeEach
