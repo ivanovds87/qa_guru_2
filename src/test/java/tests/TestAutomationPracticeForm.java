@@ -9,6 +9,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestAutomationPracticeForm {
+    String url = "https://demoqa.com/automation-practice-form";
     String firstName = "Иванов";
     String lastName = "Иван";
     String userEmail = "test@test.test";
@@ -36,7 +37,7 @@ public class TestAutomationPracticeForm {
 
     @Test
     void someTest() {
-        open("https://demoqa.com/automation-practice-form");
+        open(url);
         $("#firstName").setValue(firstName);
         $("#lastName").setValue(lastName);
         $("#userEmail").setValue(userEmail);
