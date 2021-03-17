@@ -14,7 +14,6 @@ public class TestAutomationPracticeForm {
     String userEmail = "test@test.test";
     String gender = "Male";
     String mobile = "7999999999";
-//    String birthDate = "01 Apr 1990";
     String bDate = "01";
     String bMonth = "April";
     String bYear = "1990";
@@ -67,9 +66,6 @@ public class TestAutomationPracticeForm {
         $x("//tbody/tr[8]/td[2]").shouldHave(text(pictures));
         $x("//tbody/tr[9]/td[2]").shouldHave(text(currentAddress));
         $x("//tbody/tr[10]/td[2]").shouldHave(text(state + " " + city));
-
-
-        System.out.println("debug");
     }
 
 }

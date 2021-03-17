@@ -15,7 +15,7 @@ public class TextBoxTests {
         Configuration.startMaximized = true;
     }
 
-   @Test
+    @Test
     void successfulFillTest() {
         open("https://demoqa.com/text-box");
 
@@ -24,7 +24,7 @@ public class TextBoxTests {
         $("[placeholder='Current Address']").setValue("12345");
         $(byId("permanentAddress")).setValue("54321");
         $(".btn.btn-primary").click();
-       System.out.println("debug");
+        System.out.println("debug");
 
     }
 }
