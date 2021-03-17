@@ -25,5 +25,6 @@ public class TextBoxTests {
         $(byId("permanentAddress")).setValue("54321");
         $(".btn.btn-primary").click();
        System.out.println("debug");
+
     }
 }
