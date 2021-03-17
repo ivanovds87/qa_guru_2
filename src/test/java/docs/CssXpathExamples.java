@@ -48,7 +48,6 @@ class CssXpathExamples {
         //      <input class="login_form_input_box">
         // </div>
         $(".inputtext .login_form_input_box").setValue("some@email.com");
-
     }
 
 }
